@@ -13,7 +13,7 @@ body {
 
 h1 {
     font-size: 2.4rem /* x.xrem  (rem is a unit of measure) */;
-    color: fff; /* #xxxxxx */;
+    color: #fff; /* #xxxxxx */;
 }
 
 h2 {
