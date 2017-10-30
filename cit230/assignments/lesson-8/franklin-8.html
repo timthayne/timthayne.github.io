@@ -2,22 +2,8 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- head.html -->
     <title></title>
-    <meta name="author" content="Your Name Here">
-    <meta name="description" content="page description placeholder">
-    <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Google API font reference -->
-    <link href="styles/normalize.css" rel="stylesheet">
-    <!-- normalize useragent/browser defaults -->
-    <link href="styles/main-5.css" rel="stylesheet">
-    <!-- default styles - small/phone views -->
-    <link href="styles/medium-5.css" rel="stylesheet">
-    <!-- medium/tablet views -->
-    <link href="styles/large-5.css" rel="stylesheet">
-    <!-- large/wide/desktop views -->
 </head>
 
 <body>
@@ -60,13 +46,13 @@
             </div>
             <div class="conditions">
                 <p>Precipitation:</p>
-                <p>Temperature: 
+                <p>Temperature:
                     <span id="temp"></span>
                 </p>
-                <p>Wind Speed: 
+                <p>Wind Speed:
                     <span id="windSpeed"></span>
                 </p>
-                <p>Wind Chill Factor: 
+                <p>Wind Chill Factor:
                     <span id="windChillFactor"></span>
                 </p>
             </div>
@@ -119,7 +105,9 @@
         <aside>
             Contact information placeholder
         </aside>
-        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span></p>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | 
+            <span id="currentdate"></span>
+        </p>
     </footer>
 
     <script src="scripts/windchill.js"></script>

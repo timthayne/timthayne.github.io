@@ -1,0 +1,73 @@
+/* HTML Selectors */
+
+footer {
+    padding: 5px;
+    text-align: center;
+}
+
+/*
+article:nth-child(1) {
+    background-color: blue;
+}
+
+article:nth-child(2) {
+    background-color: green;
+    align-self: stretch;
+}
+
+article:nth-child(3) {
+    background-color: yellow;
+}
+*/
+
+/* Class Selectors */
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 600px;
+    background-color: lightgray;
+}
+
+.flexItem:first-of-type {
+    align-self: stretch;
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.flexItem:nth-of-type(2) {
+    background-color: green;
+    flex-grow: 3;
+}
+
+.flexItem:last-of-type {
+    align-self: stretch;
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+
+
+
+
+.mainMenu {
+    background-color: yellow;
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+}
+
+.mainMenu li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.mainMenu li a {
+    text-decoration: none;
+}
+
+.mainMenu li a:hover {
+    text-decoration: underline;
+}
