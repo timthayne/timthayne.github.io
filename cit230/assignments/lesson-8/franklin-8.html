@@ -1,15 +1,12 @@
 <!doctype html>
 <html lang="en-us">
-
 <head>
-    <script src="scripts/w3.js"></script>
     <!-- head.html -->
-    <div w3-include-html="head.html"></div>
+    <div w3-include-html="modules/head.html"></div>
     <title>Franklin Weather</title>
 </head>
 
 <body>
-
     <header>
         <img src="images/#" alt="The site logo" width="" height="">
         <h1>Title</h1>
@@ -111,16 +108,13 @@
             <span id="currentdate"></span>
         </p>
     </footer>
-
+    
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <!-- modularization files -->
-    <script>
-        w3.includeHTML();
-
-    </script>
-<!--    <script src="scripts/modularize.js"></script>-->
+    
 </body>
 
 </html>
