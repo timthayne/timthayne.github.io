@@ -237,7 +237,7 @@ w3.includeHTML = function(cb) {
       xhttp = new XMLHttpRequest();
       xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-          elmnt.innerHTML += this.responseText;
+          elmnt.innerHTML = this.responseText + elmnt.innerHTML;
           elmnt.removeAttribute("w3-include-html");
           w3.includeHTML(cb);
         }
