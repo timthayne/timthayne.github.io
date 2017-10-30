@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-   <script src="scripts/w3.js"></script>
+    <script src="scripts/w3.js"></script>
     <!-- head.html -->
     <div w3-include-html="head.html"></div>
     <title>Franklin Weather</title>
@@ -107,7 +107,7 @@
         <aside>
             Contact information placeholder
         </aside>
-        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title | 
+        <p class="footer-bar">&copy;2017 All Rights Reserved | Site Title |
             <span id="currentdate"></span>
         </p>
     </footer>
@@ -116,8 +116,11 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <!-- modularization files -->
-    
-    <script src="scripts/modularize.js"></script>
+    <script>
+        w3.includeHTML();
+
+    </script>
+<!--    <script src="scripts/modularize.js"></script>-->
 </body>
 
 </html>
