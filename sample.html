@@ -1,19 +1,68 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Franklin (Sample)</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
 </head>
+
 <body>
-   <h1 class="specialH1">
-       My Page Heading
-   </h1>
+    <header>
+        <h1>
+            Franklin (Sample)
+        </h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <p>
+                    Motto: <span id="motto"></span>
+                </p>
+                <p>
+                    Year Founded: <span id="yearFounded"></span>
+                </p>
+                <p>
+                    Population: <span id="currentPopulation"></span>
+                </p>
+                <p>
+                    Average Rainfall: <span id="averageRainfall"></span>
+                </p>
+                <p>Events:</p>
+                <ul id="events">
+                </ul>
+            </article>
+        </section>
+    </main>
+    <script>
+        var townData;
+        var requestURL = 'https://byui-cit230.github.io/towndata.json';
+        var request = new XMLHttpRequest();
 
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
 
+        request.onload = function() {
+            townData = request.response;
 
-    <script src=""></script>
+            for (var i = 0; i < townData.towns.length; i++) {
+                if (townData.towns[i].name === "Franklin") {
+                    document.getElementById("motto").innerHTML = townData.towns[i].motto;
+                    document.getElementById("yearFounded").innerHTML = townData.towns[i].yearFounded;
+                    document.getElementById("currentPopulation").innerHTML = townData.towns[i].currentPopulation;
+
+                    for (var j = 0; j < townData.towns[i].events.length; j++) {
+                        var newListItem = document.createElement("li");
+                        newListItem.innerHTML = townData.towns[i].events[j];
+                        document.getElementById("events").append(newListItem);
+                    }
+
+                }
+            }
+        }
+    </script>
 </body>
+
 </html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-us">
+    <head w3-include-html="modules/head.html">
+        <title>Franklin Weather Page</title>
+    </head>
+    <body>
+        <header w3-include-html="modules/header.html">
+        </header>
+
+        <!-- site navigation use placeholder references -->
+        <nav w3-include-html="modules/nav.html"></nav>
+
+        <main>
+            <h2>The City of Franklin</h2>
+            <figure>
+                <img>
+            </figure>
+            <section>
+                <h3>Weather Summary</h3>
+                <div class="highlow">
+                    <p>High:</p>
+                    <p>Low:</p>
+                </div>
+                <div class="current">
+                    Sunny
+                    <picture>
+                        <img src="" alt="" width="" height="">
+                    </picture>
+                </div>
+                <div class="conditions">
+                    <p>Precipitation:</p>
+                    <p>Temperature:
+                        <span id="temp"></span>
+                    </p>
+                    <p>Wind Speed:
+                        <span id="windSpeed"></span>
+                    </p>
+                    <p>Wind Chill Factor:
+                        <span id="windChillFactor"></span>
+                    </p>
+                </div>
+            </section>
+
+            <section class="forecast">
+                <h3>10 Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="test">89&deg;F</td>
+                            <td class="test">87&deg;F</td>
+                            <td class="test">78&deg;F</td>
+                            <td class="test">75&deg;F</td>
+                            <td class="test">72&deg;F</td>
+                            <td class="test">72&deg;F</td>
+                            <td class="test">79&deg;F</td>
+                            <td class="test">83&deg;F</td>
+                            <td class="test">85&deg;F</td>
+                            <td class="test">89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <article>
+                <h3>Franklin Breaks Record</h3>
+                <p class="town-article">
+                    <img src="" alt="" width="" height=""> short article content placeholder
+                </p>
+            </article>
+
+        </main>
+
+        <footer w3-include-html="modules/footer.html"></footer>
+
+        <script src="scripts/w3.js"></script>
+        <script src="scripts/modularize.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+
+    </body>
+
+</html>
