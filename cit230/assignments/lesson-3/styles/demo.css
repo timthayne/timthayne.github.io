@@ -1,0 +1,24 @@
+/* html selector */
+body {
+    color: #fff;
+}
+
+
+h1 {
+    background: #000;
+}
+
+
+/* class selector */
+.bold {
+    font-weight: bold;
+}
+
+.navigation {
+    color: aqua;
+}
+
+/* id selector */
+.navigation {
+    color: aqua;
+}
