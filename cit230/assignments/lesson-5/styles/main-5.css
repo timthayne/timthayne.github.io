@@ -56,6 +56,10 @@ main figure img {
 
 section {}
 
+section.forecast {
+    display: none;
+}
+
 article p.town-article img {
     /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     width: ???;
