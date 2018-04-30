@@ -14,7 +14,7 @@ body {
 
 /* TEMP */
 h2 {
-    color: Yellow;
+    color: cadetblue;
 }
 
 header,
@@ -44,7 +44,7 @@ nav ul li {}
 nav ul li a {}
 
 nav ul li.active a {
-    color: Yellow;
+    color: aqua;
 }
 
 nav ul li a:hover {}

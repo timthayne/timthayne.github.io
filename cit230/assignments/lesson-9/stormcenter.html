@@ -1,23 +1,12 @@
 <!doctype html>
-<!doctype html>
 <html lang="en-us">
-    <head w3-include-html="modules/head.html">
+<head w3-include-html="modules/head.html">
     <title>Franklin Weather Page</title>
-    <style>
-        div {
-            padding: 5px;
-        }
-
-        label {
-            display: inline-block;
-            min-width: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/stormcenter.css">
 </head>
 
 <body>
-    <header w3-include-html="modules/header.html">
-    </header>
+    <header w3-include-html="modules/header.html"></header>
 
     <!-- site navigation use placeholder references -->
     <nav w3-include-html="modules/nav.html"></nav>
@@ -28,8 +17,7 @@
             <div>
                 <label>Storm Region:</label>
                 <select name="stormRegion">
-                       <option value=""  
-                       selected disabled>Select Region</option>
+                       <option value="" selected disabled>Select Region</option>
                         <option value="Franklin">Franklin</option>
                         <option value="Greenville">Greenville</option>
                         <option value="Springfield">Springfield</option>
@@ -57,3 +45,5 @@
 </body>
 
 </html>
+
+

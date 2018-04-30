@@ -1,0 +1,20 @@
+/* html selectors */
+th, td {
+    border: 1px solid black;
+}
+
+thead tr:first-child th {
+    background-color: aqua;
+}
+
+
+/* id selectors */
+#tableTitle {
+    background-color: #7fb9c2;
+}
+
+
+/* class selectors */
+tbody tr:nth-child(even) td {
+    background-color: darkgray;
+}

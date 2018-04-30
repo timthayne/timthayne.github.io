@@ -3,5 +3,9 @@
     article p.town-article img {
         width: 29.333%;
     }
+    
+    nav ul li a {
+        padding: .6rem 1rem;
+    }
 }
 
