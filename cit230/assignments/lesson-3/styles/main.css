@@ -1,44 +1,7 @@
 .style1 {
-    background-color: #eee;
-    border: 1px solid #bbb;
-    line-height: 1.5em;
-    margin: 0 auto;
-    padding: 5px;
-}
-    
-
-
-/* html */
-p, h1, h1, h2
-{
-       
-}
-
-
-
-/* class */
-.right
-{
-    text-align: right;
-}
-
-.smaller
-{
-    font-size: x-small;
-}
-
-.style1 {
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: 5px;
     background-color: #eee;
     line-height: 1.5em;
 }
-
-
-/* id */
-#h1-main
-{
-    font-size: 50pt;
-}
-
