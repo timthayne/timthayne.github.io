@@ -27,11 +27,11 @@ header, main, footer {
     padding: .5rem;
     max-width: 800px; /* xxxpx (px = pixel is a unit of measure)  */;
 }
-
 header, footer, footer a {
     text-align: center;
     background-color: darkblue; /* */;
     color: whitesmoke;
+    /* Comment */
 }
 
 header img {
