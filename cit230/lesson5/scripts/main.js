@@ -47,14 +47,19 @@ document.getElementById('currentDate').innerHTML = currentDateString;
 
 
 // create the five-day forecast
-let day1, day2, day3, day4, day5;
+let currentDay = weekDayNumber;
 
+for (let i = 1; i < 6; i++) {
+    // add one day to current day
+    currentDay++;
 
+    // if current day is greater than 6 (Saturday), reset it to 0 (Sunday)
+    if (currentDay > 6) {
+        currentDay = 0;
+    }
 
-if (weekDayNumber < 6) {
-    day1 = daysOfWeek[weekDayNumber + 1];
-    document.getElementById("day1").innerHTML = day1;
+    // assign value to placeholder in HTML
+    const element = document.getElementById(`day${i}`);
+
+    element.innerHTML = daysOfWeek[currentDay];
 }
-    
-
-
