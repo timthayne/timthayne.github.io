@@ -43,6 +43,11 @@ label {
     min-width: 125px;
 }
 
+main {
+    max-width: 60%;
+    margin: auto;
+}
+
 nav {
     margin: 0 auto;
     max-width: 760px;
@@ -54,16 +59,19 @@ table, th, td {
 }
 
 /* class selectors */
-.active {
-    background-color: yellow;
-    color: black;
-}
+
+
 .align-top {
     vertical-align: top;
 }
 
 .flex {
     display: flex;
+}
+
+.grid {
+    display: grid;
+    grid-column: 1fr;
 }
 
 .hidden {
@@ -90,6 +98,11 @@ table, th, td {
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
+}
+
+.active a {
+    background-color: lightyellow;
+    color: black;
 }
 
 .navigation a:hover {

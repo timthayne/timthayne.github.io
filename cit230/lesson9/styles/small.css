@@ -66,6 +66,11 @@ table, th, td {
     display: flex;
 }
 
+.grid {
+    display: grid;
+    grid-column: 1fr;
+}
+
 .hidden {
     display: none;
 }
