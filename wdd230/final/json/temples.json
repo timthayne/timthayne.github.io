@@ -1,0 +1,151 @@
+[
+    {
+        "TempleName": "Madrid Spain Temple",
+        "StreetLine1": "Calle Del Templo 2",
+        "StreetLine2": "",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "madridspaintemple@churchofjesuschrist.org",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "Groundbreaking"
+            }
+        ],
+        "Schedule": 
+            {
+                "Initiatory": "Tuesday - Saturday",
+                "Endowment": "Tuesday - Saturday",
+                "Sealings": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ],
+        "Image": "https://assets.ldscdn.org/90/a0/90a0c0d599f94a2d955930e90fa95b9aa85a5004/idaho_falls_idaho_temple.png"
+    },
+    {
+        "TempleName": "Madrid Spain Temple",
+        "StreetLine1": "Calle Del Templo 2",
+        "StreetLine2": "",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "madridspaintemple@churchofjesuschrist.org",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "Groundbreaking"
+            }
+        ],
+        "Schedule": 
+            {
+                "Initiatory": "Tuesday - Saturday",
+                "Endowment": "Tuesday - Saturday",
+                "Sealings": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+    },
+    {
+        "TempleName": "Madrid Spain Temple",
+        "StreetLine1": "Calle Del Templo 2",
+        "StreetLine2": "",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "madridspaintemple@churchofjesuschrist.org",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "Groundbreaking"
+            }
+        ],
+        "Schedule": 
+            {
+                "Initiatory": "Tuesday - Saturday",
+                "Endowment": "Tuesday - Saturday",
+                "Sealings": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+    },
+    {
+        "TempleName": "Madrid Spain Temple",
+        "StreetLine1": "Calle Del Templo 2",
+        "StreetLine2": "",
+        "City": "Madrid",
+        "State": "",
+        "Country": "Spain",
+        "Zip": "28030",
+        "Telephone": "",
+        "Email": "madridspaintemple@churchofjesuschrist.org",
+        "Services": [
+            "Clothing rental available",
+            "Cafeteria available",
+            "Patron housing available",
+            "Distribution center nearby"
+        ],
+        "History": [
+            {
+                "Date": "4 April 1993",
+                "Milestone": "Announced"
+            },
+            {
+                "Date": "11 June 1996",
+                "Milestone": "Groundbreaking"
+            }
+        ],
+        "Schedule": 
+            {
+                "Initiatory": "Tuesday - Saturday",
+                "Endowment": "Tuesday - Saturday",
+                "Sealings": "Tuesday - Saturday"
+            },
+        "Closures": [
+            "Saturday, 4 April 2020",
+            "Tuesday, 23 June 2020 - Monday, 6 July 2020"
+        ]
+    }
+]

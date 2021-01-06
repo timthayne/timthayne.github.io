@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/sample.css">
+</head>
+
+<body>
+    <aside class="hidden">
+        <p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion</p>
+    </aside>
+    <header></header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Preston</li>
+            <li>Soda Springs</li>
+            <li>Fish Haven</li>
+            <li>Storm Center</li>
+            <li>Gallery</li>
+        </ul>
+    </nav>
+    <main class="grid">
+        <section id="hero-image">
+            <!-- hero image -->
+            <img id="hero-image" src="images/hero-image.jpg" alt="Hero Image">
+            <article id="weather-summary">
+                <h1>Weather Summary</h1>
+                <div>
+                    <span>Current Temperature: </span>
+                    <span id="current-temp"></span>
+                </div>
+                <div>
+                    <span>Wind Speed: </span>
+                    <span id="wind-speed"></span>
+                </div>
+                <div>
+                    <span>Humidity: </span>
+                    <span id="humidity"></span>
+                </div>
+            </article>
+        </section>
+        <section id="five-day-forecast">
+            <h1>Five-Day Forecast</h1>
+            <!-- five-day forecast -->
+            <table>
+                <thead>
+                    <tr>
+                        <th id="day1">Day 1</th>
+                        <th id="day2">Day 2</th>
+                        <th id="day3">Day 3</th>
+                        <th id="day4">Day 4</th>
+                        <th id="day5">Day 5</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="temp1">50&deg;</td>
+                        <td id="temp2">45&deg;</td>
+                        <td id="temp3">40&deg;</td>
+                        <td id="temp4">42&deg;</td>
+                        <td id="temp5">35&deg;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="article">
+            <!-- article -->
+            <article id="city-article">
+                <img id="article-image" src="images/preston.jpg" alt="Preston">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat veniam eligendi vel laboriosam
+                    velit at ex eaque doloremque, quis minima animi et. Perspiciatis labore in dolor repudiandae
+                    nostrum eveniet quod!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat veniam eligendi vel laboriosam
+                    velit at ex eaque doloremque, quis minima animi et. Perspiciatis labore in dolor repudiandae
+                    nostrum eveniet quod!
+                </p>
+            </article>
+        </section>
+        <section id="contact" class="flex">
+            <!-- contact -->
+            <address>
+                <h1>The Weather Site</h1>
+                123 This Street<br>
+                Anytown, ID 83440<br>
+                208-555-1212<br>
+                email@domain.com<br>
+            </address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.0082163285315!2d-111.7852707840624!3d43.81418897911609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53540b03c3c8b0cd%3A0xfd28a97e4cccebc!2s525%20S%20Center%20St%2C%20Rexburg%2C%20ID%2083460!5e0!3m2!1sen!2sus!4v1581010147546!5m2!1sen!2sus"
+                width="40%" frameborder="0" style="border:0;" allowfullscreen="">
+            </iframe>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="scripts/sample.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,73 @@
+/* html selectors */
+div, form {
+    margin: 10px;
+}
+
+header, footer {
+    background-color: lightsalmon;
+    margin: 5px;
+    padding: 1px;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    min-width: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    margin: 5px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li:first-child {
+    display: block;
+}
+
+nav ul li {
+    display: none;
+}
+
+nav ul li a {
+    background-color: #e1e1e1;
+    color: black;
+    display: block;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+table {
+    margin: 5px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e1e1e1;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -5,15 +75,29 @@ ul {
 }
 
 ul a {
-    background-color: #e1e1e1;
-    display: inline-block;
-    margin: 2px;
-    padding: 10px;
-    text-decoration: none;
-    width: 90%;
+    
 }
 
+ul a:hover {
+    background-color: darkgray;
+}
 
-h1 {
-    color: blueviolet;
+/* class selectors */
+.responsive li {
+    display: block;
+}
+
+@media only screen and (min-width: 32.5em) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav ul li:first-child {
+        display: none;
+    }
+    
+    nav ul li {
+        display: block;
+    }
 }

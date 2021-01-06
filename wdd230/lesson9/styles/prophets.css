@@ -1,0 +1,33 @@
+article {
+    background-color: #b9b9cc;
+    border: 1px solid #7778ab;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #505098;
+}
+
+img {
+    box-shadow: 10px 10px 8px #888888;
+    width: 200px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 32.5em) {
+    section {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

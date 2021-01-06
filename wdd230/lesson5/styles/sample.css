@@ -1,0 +1,81 @@
+/* html */
+aside {
+    background-color: yellow;
+    padding: 10px;
+}
+
+iframe {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+section {
+    margin: 10px;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* classes */
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.grid {
+    display: grid;
+}
+
+.hidden {
+    display: none;
+}
+
+/* id's */
+#article-image {
+    float: right;
+    /* width: 200px; */
+    margin: 0 0 1em 1em;
+}
+
+#city-article {
+    max-width: 400px;
+}
+
+#five-day-forecast {
+    display: none;
+}
+
+#hero-image {
+    width: 600px;
+}
+
+#weather-summary {
+    background-color: white;
+    left: 25px;
+    padding: 10px;
+    position: absolute;
+    top: 120px;
+}
+
+@media only screen and (min-width: 32.5em) {
+    iframe {
+        display: block;
+    }
+    
+    #five-day-forecast {
+        display: block;
+    }
+}

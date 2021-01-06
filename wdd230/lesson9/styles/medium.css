@@ -1,0 +1,42 @@
+@media only screen and (min-width: 32.5em) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: yellow;
+    }
+
+    #cities {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #forecast {
+        display: block;
+    }
+
+    #gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #map {
+        display: block;
+    }
+}
+

@@ -1,0 +1,40 @@
+/* html selectors */
+header {
+    background-color: lightgray;
+    font-family: 'Sigmar One', cursive;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: hotpink;
+    padding: 10px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+nav {
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+
+/* class selectors */
+
+
+/* id selectors */
